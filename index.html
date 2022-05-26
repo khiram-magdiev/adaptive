@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Adaptive</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="icons/icons.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <header class="header menu-open" id="header">
+                <div class="header-inner">
+                    <button id="burger-icon" class="burger-icon">
+                        <span class="burger-icon-inner"></span>
+                    </button>
+                    <a href="#" class="icon-logo"></a>
+                    <nav class="menu">
+                        <ul>
+                             <li class="nav-item"><a href="#" class="nav-item-link"></a>gallery</li>
+                             <li class="nav-item"><a href="#" class="nav-item-link"></a>history</li>
+                             <li class="nav-item"><a href="#" class="nav-item-link"></a>contact us</li>
+                        </ul>
+                    </nav>  
+                </div>
+            </header>
+            <main class="main-info">
+                    <div class="carousel">
+                          <div>
+                              <img src="img/photo01.png" alt="photo">
+                          </div>
+                          <div>
+                              <img src="img/photo02.png" alt="photo">
+                          </div>
+                          <div>
+                              <img src="img/photo03.png" alt="photo">
+                          </div>
+                    </div>
+                    <!-- <img src="img/photo03.png" alt="camera"> -->
+
+                <p>Suspendisse potenti. Curabitur in leo non odio hendrerit semper. Morbi id tempor eros. Donec viverra tempor congue. Suspendisse quis felis ultricies, egestas tellus non, semper est.Donec congue lorem odio, eu ornare nisl malesuada tincidunt. Nullam ac leo est. Donec varius neque vel ex consectetur aliquet. Aliquam venenatis vel tellus non tincidunt. In viverra tellus ut libero dapibus ullamcorper. Donec non feugiat massa.</p>
+            </main>
+            <article>
+                <h2 class="history">history</h2>
+                <div class="article-text">
+                    <div class="text-info"><p><span>1890</span> Fusce rhoncus at sapien at sollicitudin. Quisque semper sollicitudin libero eget placerat. Aliquam quis laoreet tellus. In id congue lacus. Nulla vestibulum turpis et nisi consequat, non sagittis purus interdum. Nunc eu dolor urna. Quisque fermentum risus quam, at consectetur leo tincidunt id. Nulla facilisi.</p></div>
+                    <div class="text-info"><p><span>1920</span> Aliquam erat volutpat. Curabitur et accumsan odio, eget scelerisque risus. Suspendisse ultrices mattis accumsan. In hac habitasse platea dictumst. In non nisl turpis. Sed sit amet purus odio. Donec aliquam leo a tortor tincidunt, vel molestie neque commodo. Ut pellentesque ut ex pulvinar aliquam. Morbi porttitor, felis quis convallis tincidunt, augue felis euismod lectus, a placerat purus justo eget magna. Mauris neque nisi, pharetra ac posuere nec, vehicula non lorem.</p></div>
+                </div>
+            </article>
+            <h2 class="contact">contact us</h2>
+            <form>
+                <div class="contact-input">
+                    <input type="text" name="send" placeholder="type your message here" class="input-text">
+                    <input type="submit" value="Send" class="input-send">
+                </div>      
+            </form>         
+        </div>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script>
+            $(document).ready (function(){
+                $(".carousel").slick({
+                    dots:true
+                });
+            });
+        </script>
+    </body>
+</html>
